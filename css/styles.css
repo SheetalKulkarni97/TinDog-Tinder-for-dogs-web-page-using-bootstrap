@@ -1,0 +1,155 @@
+#title {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.container-fluid {
+  padding: 3% 15%;
+}
+
+body {
+  font-family: "Montserrat-Bold", sans-serif;
+}
+
+/* Navigation Bar  */
+.navbar {
+  padding-bottom: 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+/* Download buttons */
+.download-button {
+  margin: 5% 3% 5% 0%;
+}
+
+/* title image */
+.title-image {
+  width: 20%;
+  transform: rotate(25deg);
+  position: absolute;
+}
+
+/* features section */
+#features {
+  padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
+  /* z-index: 1; */
+}
+.color-icons {
+  color: #ef8172;
+  padding-bottom: 2%;
+}
+
+.color-icons :hover {
+  color: #ff4c68;
+}
+
+.desc {
+  color: #8f8f8f;
+}
+
+.feature-headers {
+  font-size: 1.5rem;
+}
+
+.feature-columns {
+  text-align: center;
+}
+
+/* testimonials section */
+#testimonials {
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+
+.testimonial-headers {
+  font-family: Montserrat-Black;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+/* press section */
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* pricing section */
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+  .title-image {
+    width: 60%;
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+/* cta section */
+#cta {
+  background-color: #ff4c68;
+  padding: 7% 15%;
+  text-align: center;
+}
+
+.cta-header {
+  font-family: Montserrat-Black;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  color: #fff;
+  padding: 5%;
+}
+
+/* footer section */
+#footer {
+  padding: 7% 15%;
+  text-align: center;
+  background-color: #fff;
+}
+
+.footer-icons {
+  margin: 10px;
+}
+
+.footer-para {
+  color: #8f8f8f;
+}
